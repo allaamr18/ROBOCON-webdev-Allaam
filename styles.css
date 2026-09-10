@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+    from { opacity:0; }
+    to { opacity:1; }
+    
+}
+
+@keyframes sizeInrease {
+    from { font-size:1rem; }
+    to { font-size:4rem; }
+    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 100vh;
+}
+h1 {
+    font-size: 4rem;
+    color:whitesmoke;
+    animation: fadeIn 3s ease-in-out, sizeInrease 3s ease-in-out;
+   
+}
+
