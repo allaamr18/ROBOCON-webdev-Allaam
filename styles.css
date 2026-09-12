@@ -12,16 +12,69 @@
 
 
 body {
+   
+}
+
+.hero{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000;
     height: 100vh;
+    gap:10px;
+    color:whitesmoke;
 }
+
 h1 {
     font-size: 4rem;
     color:whitesmoke;
     animation: fadeIn 3s ease-in-out, sizeInrease 3s ease-in-out;
    
 }
+
+
+    a{
+        text-decoration:none;
+        color:white;
+    }
+
+    #list {
+        display:flex;
+        gap:40px;
+  
+    }
+    
+    .navbar {
+        background-color:white;
+    }
+    
+    .nav-links{
+        display:flex;
+        justify-content:space-around;
+        list-style-type:none;
+        font-size:1.2rem;
+        
+    }
+
+    .nav-links li a{
+       color:black;
+    }
+
+    .nav-links li a:hover{
+        font-size:2rem;
+    }
+
+    .about{
+        height:100vh;
+        background-color:navy;
+        color:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:30px;
+       
+}
+.about p{
+     max-width: 800px;
+} 
 
